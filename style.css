@@ -10,10 +10,10 @@ body {
 }
 .container {
     position: relative;
-    left: 500px;
-    width: 360px;
-    height: 640px;
-    margin-top: 160px;
+    left: 40%;
+    width: 320px;
+    height: 600px;
+    margin-top: 50px;
     background: rgba(0,0,0,.1);
     transform: rotate(-30deg) skew(25deg) scale(.8);
     transition: 0.5s;
@@ -108,8 +108,6 @@ ul.navigation li a:hover:before
 ul.social
 {
     position: relative;
-    margin: 0;
-    
     display: flex;
     justify-content: center;
 }
